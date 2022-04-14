@@ -9,5 +9,6 @@ int UART_Init(int, int, int, int, int, int, int, char);
 
 int UART_Recv(int, char*, int);
 
+void interrupt(int);
 
 #endif
